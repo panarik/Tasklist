@@ -1,0 +1,7 @@
+*.yaml
+*.html
+.gradle
+.idea
+Topics
+Tasklist/task/build
+Tasklist/task/out
