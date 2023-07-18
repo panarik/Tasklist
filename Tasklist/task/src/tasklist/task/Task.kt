@@ -1,5 +1,6 @@
 package tasklist.task
 
-data class Task(val index:Int, val title: String) {
+data class Task(val title: String, val body:List<String>) {
 
+    fun hasBody():Boolean = body.isNotEmpty()
 }
